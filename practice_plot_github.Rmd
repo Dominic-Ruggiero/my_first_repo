@@ -17,7 +17,7 @@ mtcars
 
 hp_quarter<-mtcars%>%
   ggplot(aes(x=hp, y=qsec))+
-  geom_point()
+  geom_point(color="blue")
 
 ggsave("practice_plot.png", hp_quarter)
 
